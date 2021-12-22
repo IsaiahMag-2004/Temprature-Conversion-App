@@ -5,7 +5,7 @@ print("Welcome to the Temprature Conversion App/n")
 fahrenheit = float(input("What is the given temprature in degrees fahrenheit: "))
 
 #Convert and output
-celcius = round((fahrenheit - 32) * 5.0 / 9), 2)
+celcius = round((fahrenheit - 32) * 5.0 / 9, 2))
 kelvin = round((fahrenheit - 32) * 5.0 / 9 + 273.15, 2))
 
 print(f"Degrees Fahrenheit:    {fahrenheit}")
